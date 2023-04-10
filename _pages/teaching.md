@@ -17,5 +17,5 @@ author_profile: true
 $$\\$$
 $$\\$$
 
-- ## Institute of Rural Management Anand, India
+## Institute of Rural Management Anand, India
 - Stata for Econometric Methods for Impact Evaluation (Nov 2019)
