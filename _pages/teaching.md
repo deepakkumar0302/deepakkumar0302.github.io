@@ -21,4 +21,5 @@ $$\\$$
 ## Institute of Rural Management Anand, India
 - Stata for Econometric Methods for Impact Evaluation - Fall 2019
 $$\\$$
+$$\\$$
 Course outline - Data management in stata includes reading and importing data files, saving and exporting data files, cleaning and Labeling datasets, combining datasets, changing the shape of your data, and basic regression analysis.
