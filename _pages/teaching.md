@@ -12,7 +12,7 @@ author_profile: true
 {% endfor %}
 
 # Teaching Assistant
-## Virginia Polytechnic Institute and State University, USA
+## Virginia Tech, USA
 - International Agricultural Development and Trade (Fall 2022)
 $$\\$$
 $$\\$$
