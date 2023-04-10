@@ -13,8 +13,7 @@ author_profile: true
 
 # Teaching Assistant
 ## Virginia Tech, USA
-- International Agricultural Development and Trade (Fall 2022)
- 
+- International Agricultural Development and Trade (Fall 2022) 
 $$\\$$
 $$\\$$
 
