@@ -11,11 +11,10 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-# Teaching Assistant
 ## Virginia Tech, USA
 - International Agricultural Development and Trade (Fall 2022) 
 $$\\$$
 $$\\$$
-
+# Teaching Assistant
 ## Institute of Rural Management Anand, India
 - Stata for Econometric Methods for Impact Evaluation (Nov 2019)
