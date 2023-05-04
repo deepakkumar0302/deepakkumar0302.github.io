@@ -34,7 +34,7 @@ Pandey, V., Nagarajan, H. K., & Kumar, D. (2021). Impact of Gendered Participati
 $$\\$$
 # Work in Progress
 
-* “Food Vulnerability during shocks and Women’s bargaining power: Evidence from Indian Cooperatives”
+* “Food Vulnerability during shocks and Women’s bargaining power: Evidence from Indian Cooperatives” with Vivek Pandey, H.K. Nagarajan and Harpreet Singh
 
 * “A Gendered Approach to Economic Impacts of Refugee Aid in Kenya”, with Anubhab Gupta, J. Edward
 Taylor and Justin Kagin
