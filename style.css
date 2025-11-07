@@ -1,6 +1,6 @@
 img.avatar {
   width: 320px !important;
-  height: 475px !important;
+  height: auto !important;
   border-radius: 8px !important; /* square */
   object-fit: cover;
   border: 2px solid #ddd;
