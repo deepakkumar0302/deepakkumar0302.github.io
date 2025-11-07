@@ -1,13 +1,13 @@
-img.avatar {
-  width: 326px !important;
-  height: 489px !important;
-  border-radius: 4px !important; 
+.avatar {
+  width: 320px;
+  height: 475px;
+  border-radius: 8px;     /* square with slightly rounded corners */
+  object-fit: cover;
   border: 2px solid #ddd;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); 
   display: block;
   margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-
 
 :root {
   --bg: #f8fafc;
