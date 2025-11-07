@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Deepak Kumar | CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="nav-brand">Deepak Kumar</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="cv.html" class="active">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Curriculum Vitae</h1>
+
+    <div class="card">
+      <p>
+        A detailed CV with my education, research projects, teaching experience, and professional
+        activities is available below.
+      </p>
+      <a class="cv-link" href="files/DeepakKumar_CV.pdf" target="_blank" rel="noopener">
+        View CV (PDF)
+      </a>
+      <p class="small-muted" style="margin-top:0.7rem;">
+        To update, replace <code>files/DeepakKumar_CV.pdf</code> in this repository with your latest CV.
+      </p>
+    </div>
+
+    <footer>
+      &copy; <span id="year"></span> Deepak Kumar
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
