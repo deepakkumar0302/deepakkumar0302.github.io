@@ -1,3 +1,14 @@
+img.avatar {
+  width: 320px !important;
+  height: 320px !important;
+  border-radius: 8px !important; /* square */
+  object-fit: cover;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: block;
+  margin: 0 auto;
+}
+
 :root {
   --bg: #f8fafc;
   --bg-card: #ffffff;
