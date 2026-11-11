@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Measuring Local Economic Disruptions | 2-minute summary</title>
+  <meta name="description" content="A 2-minute visual summary of Deepak Kumar's paper showing that small tropical storms in Vietnam cut local electricity use by 30 percent while satellite night-time lights missed it." />
+  <meta property="og:title" content="Measuring Local Economic Disruptions: 2-minute summary" />
+  <meta property="og:description" content="Small storms cause big local losses that satellites and disaster statistics miss." />
+  <meta property="og:image" content="https://deepakkumar0302.github.io/profile_web.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="index.html">Deepak Kumar</a>
+      <nav>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#teaching">Teaching</a>
+        <a href="Kumar_CV.pdf">CV</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="summary">
+    <div class="kicker">Paper 2 &middot; 2-minute summary</div>
+    <h1>Measuring Local Economic Disruptions</h1>
+    <p class="byline">Evidence from administrative electricity data and night-time lights &middot; Deepak Kumar, Chi Ta, and Anubhab Gupta</p>
+
+    <p class="lede">Small tropical storms that never make the news cut local economic activity sharply in Vietnam. Electricity records show the damage clearly. Satellite night-time lights, a popular stand-in for economic data, miss it.</p>
+
+    <!-- 1 -->
+    <div class="step">
+      <span class="num">1 &middot; The question</span>
+      <h2>Do &ldquo;minor&rdquo; storms cause real economic losses, and can we see them?</h2>
+      <p>Research on storms mostly studies major hurricanes. Weaker storms strike far more often, but they rarely appear in disaster statistics and their effects are local and short-lived. The paper asks how much they cost, and whether common data sources can detect the loss at all.</p>
+    </div>
+
+    <!-- 2 -->
+    <div class="step">
+      <span class="num">2 &middot; The setting</span>
+      <h2>Three coastal provinces, twelve storms, none hurricane-strength</h2>
+      <p>Thanh Hoa, Nghe An, and Ha Tinh in north-central Vietnam are mostly rural: rice farming, fishing, aquaculture, and small workshops. Between 2012 and 2022, twelve storms of known intensity reached the region, and none reached even Category 1. Many storms in the weather records never appear in the main international disaster database.</p>
+      <div class="tiles">
+        <div class="tile"><div class="big">12</div><div class="small">storms with known intensity, 2012 to 2022</div></div>
+        <div class="tile"><div class="big">0</div><div class="small">reached hurricane strength (Category 1)</div></div>
+        <div class="tile"><div class="big">11 years</div><div class="small">of monthly electricity use for each commune</div></div>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="step">
+      <span class="num">3 &middot; How we measure it</span>
+      <h2>Two yardsticks, same places, same storms</h2>
+      <p>We track monthly electricity use in each commune, from the utility's billing records, and compare communes within <strong>15 km</strong> of a storm's path with those farther away, before and after each storm. We then run the same test with NASA satellite night-time lights for the same communes and storms.</p>
+    </div>
+
+    <!-- 4 -->
+    <div class="step">
+      <span class="num">4 &middot; What happened</span>
+      <h2>Electricity fell by 30 percent; the satellite saw nothing</h2>
+      <p>Communes near a storm's path used about 30 percent less electricity over the six months after landfall. The losses were largest in rural, low-consumption communes. Night-time lights showed no detectable average change for the same storms in the same places.</p>
+
+      <figure class="chart">
+        <div class="chart-title">Average change after a storm, communes within 15 km of its path</div>
+        <div class="hbars">
+          <div class="hbar" title="Electricity consumption: about 30 percent decline over six months after landfall">
+            <div class="name">Electricity use<small>utility records</small></div>
+            <div class="track"><div class="fill" style="width:75%"></div><span class="v">&minus;30%</span></div>
+          </div>
+          <div class="hbar" title="Satellite night-time lights: no detectable average response">
+            <div class="name">Night-time lights<small>satellite</small></div>
+            <div class="track"><div class="fill neutral" style="width:0"></div><span class="v">no detectable change</span></div>
+          </div>
+        </div>
+        <figcaption>Over the six months after landfall, relative to communes farther from the storm track. Many rural communes are too dark for the satellite to register: about 13 percent of commune-months show zero light even without a storm.</figcaption>
+      </figure>
+      <figure class="paperfig">
+        <img src="figures/vietnam_fig3_energy.png" alt="Event-study plot of log electricity consumption in communes within 15 km of a storm track, six months before to six months after landfall" loading="lazy" />
+        <figcaption>From the paper: electricity use near the storm track, by month before and after landfall (dashed line). Flat before; about 30 percent lower after. Bars are 95% confidence intervals. Source: Figure 3.</figcaption>
+      </figure>
+      <figure class="paperfig">
+        <img src="figures/vietnam_fig2_ntl.png" alt="Event-study plots of satellite night-time lights for the same communes and storms, showing no change" loading="lazy" />
+        <figcaption>From the paper: the same storms and communes measured with satellite night-time lights. No detectable change. Source: Figure 2.</figcaption>
+      </figure>
+    </div>
+
+    <!-- 5 -->
+    <div class="step">
+      <span class="num">5 &middot; Why it matters</span>
+      <h2>Big losses up close, small on average</h2>
+      <p>Turning the electricity decline into output, a typical storm costs an exposed commune about 3 to 4 percent of a year's output. Averaged across the whole province, the same loss looks like only 0.4 to 0.6 percent. Province-level statistics hide where the damage lands.</p>
+
+      <figure class="chart">
+        <div class="chart-title">Annual output lost per typical storm</div>
+        <div class="hbars">
+          <div class="hbar" title="Exposed commune: about 3 to 4 percent of annual output">
+            <div class="name">An exposed commune</div>
+            <div class="track"><div class="fill lower" style="width:60%"></div><div class="fill range" style="width:20%"></div><span class="v">3 to 4%</span></div>
+          </div>
+          <div class="hbar" title="Province average: about 0.4 to 0.6 percent of annual output">
+            <div class="name">Province average</div>
+            <div class="track"><div class="fill lower" style="width:8%"></div><div class="fill range" style="width:4%"></div><span class="v">0.4 to 0.6%</span></div>
+          </div>
+        </div>
+        <figcaption>Darker segment: low end of the estimate; lighter segment: range up to the high end.</figcaption>
+      </figure>
+
+      <div class="tiles">
+        <div class="tile"><div class="big">US$86&ndash;134M</div><div class="small">output lost per typical storm across the three provinces (2022 dollars)</div></div>
+        <div class="tile"><div class="big">US$7.7M</div><div class="small">value of the electricity itself not used, per storm: the losses run 11 to 17 times larger</div></div>
+      </div>
+    </div>
+
+    <div class="takeaway">Frequent, low-intensity storms impose real local costs that disaster databases and satellite night-time lights can miss. Studies that rely on night-time lights alone may substantially understate them.</div>
+
+    <div class="backlinks">
+      <a class="btn primary" href="https://www.dropbox.com/scl/fi/ygsdjj2vl7blnndnu6g1h/JobMarketPaper.pdf?rlkey=9zvf57vbkb81vdh8wo8qv347x&amp;st=vmmwbwwn&amp;raw=1" target="_blank" rel="noopener">Read the full paper</a>
+      <a class="btn" href="summary-gender.html">Next: Paper 3 summary</a>
+      <a class="btn" href="index.html#research">All research</a>
+    </div>
+  </main>
+
+  <footer>&copy; 2026 Deepak Kumar &middot; Numbers from the current version of the paper.</footer>
+</body>
+</html>
